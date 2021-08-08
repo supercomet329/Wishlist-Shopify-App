@@ -23,7 +23,7 @@ return [
     |
     */
 
-    'manual_migrations' => (bool) env('SHOPIFY_MANUAL_MIGRATIONS', false),
+    'manual_migrations' => (bool) env('SHOPIFY_MANUAL_MIGRATIONS', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -129,7 +129,7 @@ return [
     |
     */
 
-    'app_name' => env('SHOPIFY_APP_NAME', 'Shopify App'),
+    'app_name' => env('SHOPIFY_APP_NAME', 'Pico Wishlist'),
 
     /*
     |--------------------------------------------------------------------------
@@ -176,7 +176,7 @@ return [
     |
     */
 
-    'api_scopes' => env('SHOPIFY_API_SCOPES', 'read_products,write_products'),
+    'api_scopes' => env('SHOPIFY_API_SCOPES', 'read_products,write_products,read_themes,write_themes,read_orders,read_customers'),
 
     /*
     |--------------------------------------------------------------------------
